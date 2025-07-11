@@ -1,0 +1,16 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    text-align: center;
+}
+.category {
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.category a {
+    text-decoration: none;
+    color: #3366cc;
+}
