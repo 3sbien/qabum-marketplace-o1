@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-fondo text-secondary font-sans;
+}
+
+a {
+  @apply text-secondary;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-fondo;
+}
+
+.container-responsive {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
